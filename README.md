@@ -1,2 +1,7 @@
 # Next-Word-Prediction-using-LSTM
-LSTM model to predict the probability of next word from Shakespear's Hamlet as dataset,model with Embedding layer, 2LSTM layers, dense layer, output lat layer as Softmax activation function.Initially text is tokenised, converted into sequences, padded to make uniform input length, then split sequences into train and test. eraly stopping to train.
+Deep Learning model to predict the next word in given sequence of words 
+Trained model using from Shakespeare's 'Hamlet' as dataset.
+LSTM Model with Embedding layer, 2 LSTM layers, Dense layer, output layer as Softmax activation function.
+Initially text is tokenised, converted into sequences, padded to make uniform input length, then split sequences into train and test. 
+To train the model, early stopping used on sequences to avoid overfitting, also checks validation loss, and when loss improves, early stopping stops training.
+Deployed as Streamlit Web app, to predict next word for user input in real time.
